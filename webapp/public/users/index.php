@@ -10,7 +10,8 @@ $database = 'password_manager';
 $conn = new mysqli($hostname, $username, $password, $database);
 
 if ($conn->connect_error) {    
-    die('A fatal error occurred and has been logged.');
+
+    die('A fatal connection error occurred and has been logged.');
     // die("Connection failed: " . $conn->connect_error);
 }
 
@@ -35,13 +36,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     $password = $conn->real_escape_string($_POST['password']);
                     
 
-                    $query = "INSERT INTO users (username, first_name, last_name, email, password, default_role_id) VALUES ('$username', '$first_name', '$last_name', '$email', '$password', 3, 1)";
+                    $query = "INSERT INTO users (username, first_name, last_name, email, password, default_role_id, approved) VALUES ('$username', '$first_name', '$last_name', '$email', '$password', 3, 1)";
                     $result = $conn->query($query);
 
                     if (!$result) {
                       
-                        die('A fatal error occurred and has been logged.');
-                        // die("Error adding user: " . $conn->error);
+                        // die('A insertion fatal error occurred and has been logged.');
+                        die("Error adding user: " . $conn->error);
                     }
 
                       
