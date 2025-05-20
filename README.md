@@ -20,15 +20,15 @@ Bug Bounties are a big part of cybersecurity. In a Bug Bounty, a company will al
 
 For this lab we will be conducting a bug bounty against our password manager! You will need to look through the password manager and identify vulnerabilities, as well as provide suggestions to remediate the vulnerability.
 
-On canvas under discussions, you will see the [bug reporting write up template](https://canvas.uw.edu/courses/1729860/discussion_topics/9002057). Use this template when you identify a vulnerability and submit it as a response to the discussion board.
+On canvas under discussions, you will see the [Canvas Bug Bounty Discussion](https://canvas.uw.edu/courses/1823042/discussion_topics/9762332). When you identify a vulnerability, follow this [Bug Bounty Write-up template](https://docs.google.com/document/d/1gliRFuhTionjU2jZqHD3-7dV9WwnrsiVSW3QV0cBuBk) and submit it as a response to the discussion board.
 
 You can receive up to 2 extra credit points :D
 
 **Note: If another group has already submitted their write up for the bug, you cannot also get credit for finding that vulnerability. This means that the Bug Bounty is effectively a race between all groups to identify all bugs.**
 
-On Saturday night, we will release a lit of all bugs that should have been identified, you then must remediate these bugs to harden our system and protect the password manager from future attacks. If you are unable to find any vulnerabilities before Saturday night, you can still receive full credit for the lab, however you will not be able to get extra credit.
+On Saturday night, we will release a list of all identified vulnerabilities. For credit on this weeks lab you then must remediate these vulnerabilities to harden our system and protect the password manager from future attacks. If you are unable to find any vulnerabilities before Saturday night, you can still receive full credit for the lab, however you will not be able to get extra credit.
 
 ## For Credit:
-As always, use the [lab writeup template](https://docs.google.com/document/d/1gliRFuhTionjU2jZqHD3-7dV9WwnrsiVSW3QV0cBuBk/edit) to complete this assignment. In your steps to reproduce, outline the steps you took to remediate 3 vulnerabilities in your password manager identified in the bug bounty. These can be ones your group identified, ones that were posted by other groups in the discussion board, or ones that were listed in the release on Saturday. 
+As always, use the lab write up template (linked in our week 1 lab) to complete this assignment. In your steps to reproduce, outline the steps you took to remediate 3 vulnerabilities in your password manager identified in the bug bounty. These can be ones your group identified, ones that were posted by other groups in the discussion board, or ones that were listed in the release on Saturday. 
 
 Be sure to include evidence that these vulnerabilities are patched. This can be screenshots of code, output of security tools or video walk throughs.
